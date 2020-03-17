@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="add.aspx.cs" Inherits="BGLB.ASP.NETStudy_01.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="add.aspx.cs" Inherits="BGLB.ASP.NETStudy_01.add" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Label">学号：</asp:Label>
             <asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="168px"></asp:TextBox><br />
@@ -55,6 +49,6 @@
 
             <SortedDescendingHeaderStyle BackColor="#000065"></SortedDescendingHeaderStyle>
         </asp:GridView>
-    </form>
-</body>
-</html>
+
+
+</asp:Content>

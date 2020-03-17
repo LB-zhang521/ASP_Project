@@ -5,7 +5,7 @@ using System.Web.UI.WebControls;
 
 namespace BGLB.ASP.NETStudy_01
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class add : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

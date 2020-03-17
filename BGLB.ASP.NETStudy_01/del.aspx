@@ -1,15 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="del.aspx.cs" Inherits="BGLB.ASP.NETStudy_01.del" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/base.Master" AutoEventWireup="true" CodeBehind="del.aspx.cs" Inherits="BGLB.ASP.NETStudy_01.del" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+ <div>
             <asp:DropDownList ID="DropDownList1" runat="server" Height="24px" Width="52px">
                 <asp:ListItem Value="sAll">全部</asp:ListItem>
                 <asp:ListItem Value="sId">学号</asp:ListItem>
@@ -50,6 +43,7 @@
 
             <SortedDescendingHeaderStyle BackColor="#000065"></SortedDescendingHeaderStyle>
         </asp:GridView>
-    </form>
-</body>
-</html>
+
+    </asp:Content>
+
+      

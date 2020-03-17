@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace BGLB.ASP.NETStudy_01
 {
-    public partial class index : System.Web.UI.Page
+    public partial class _base : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void LinkButton1_Click(object sender, EventArgs e)
         {
 
         }

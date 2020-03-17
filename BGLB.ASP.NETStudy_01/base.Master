@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="BGLB.ASP.NETStudy_01._base" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <a href="/add.aspx" target="_blank">插入操作</a><br />
+        <a href="/del.aspx" target="_blank">删除操作</a><br />
+        <a href="/find.aspx" target="_blank">查找操作</a><br />
+        <a href="/update.aspx" target="_blank">更新操作</a><br />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
